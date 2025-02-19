@@ -3,18 +3,11 @@
 ## Project Overview
 This project analyzes the Almost a Million Spotify Tracks dataset from Kaggle. Our focus is on exploring the dataset, performing data cleaning, and conducting correlation analysis to uncover relationships between different track features.
 
-### Contributors
-Team number: Team 10<br>
-
-**Collaborators:** <br>
+### Collaborators
 Anqi Wu (Owner of this repo, WAWQAQMAKABAKA)<br>
 Anxin Yi (Dollyyi)<br>
 Xiaoying Wang (XiaoyingWang412)<br>
 Yuantingyu Li (YuantingyuLi)<br>
-
-### Recognition <br>
-We acknowledge Oleg Fostenko for providing the dataset and Spotify for the audio analysis data.<br>
-And we would like to thank the course Professor Alex Pijyan for the guidance and support throughout this project.<br>
 
 ### Repository Structure<br>
 #### About Datasets
@@ -28,14 +21,39 @@ Each jupyter notebook either combined or followed steps from the course instruct
 **Proj_1_Step3_EDA.ipynb**: Exploratory Data Analysis (EDA)<br>
 **Proj 1 Step 2(Updated) & Step 4.ipynb**: Build upon step 2 and Data Preprocessing and Feature Engineering<br>
 
+### Instruction
+#### Installation & Running the Project
+To clone the repository, 
+**Renders as:**
+```bash
+https://github.com/WAWQAQMAKABAKA/5243project1_team10.git
+```
+
+#### Handling Large Files
+If you encounter errors related to large files when cloning, install and configure Git LFS(The owner of repo does have 50GB LFS storage):
+**Renders as:**
+```bash
+# Install Git LFS (if not installed)
+git lfs install
+
+# Clone the repository with LFS support
+git lfs clone https://github.com/WAWQAQMAKABAKA/5243project1_team10.git
+```
+
 ### Technologies & Tools Used
 Programming Language: Python<br>
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn<br>
 Data Handling: Pandas for data cleaning and manipulation<br>
 Visualization: Seaborn, Matplotlib, ploty<br>
 
+### Recognition <br>
+We acknowledge Oleg Fostenko for providing the dataset and Spotify for the audio analysis data.<br>
+And we would like to thank the course Professor Alex Pijyan for the guidance and support throughout this project.<br>
+
 ### License
 This project is for educational purposes and is licensed under the MIT License.<br>
+
+
 
 
 
